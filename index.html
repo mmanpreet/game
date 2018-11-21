@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Find the Penguins</title>
+    <meta charset="utf-8">
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <div id="gameholder">
+        <div id="title"></div>
+        <div id="gameoverModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="gameoverMsg">Game Over!</p>
+            </div>
+        </div>
+        <div id="gameboard">
+            <div class="gamePiece" id="penguin5"></div>
+            <div class="gamePiece" id="penguin2"></div>
+            <div class="gamePiece"></div>
+            <div class="gamePiece"></div>
+            <div class="gamePiece"></div>
+            <div class="gamePiece"></div>
+            <div class="gamePiece"></div>
+            <div class="gamePiece"></div>
+            <div class="gamePiece"></div>
+        </div>
+        <aside id="gameInfo">
+            <div>
+                <h2>Score</h2>
+                <div class="scoreContainer">
+                   <div class="scorePadding"></div>
+                   <div class="scoreboard"><input id="scoreCount" type="text" readonly placeholder="00"></div>
+                   <div class="scorePadding"></div>
+                </div>
+            </div>
+        </aside>
+        <aside id="highScore">
+            <div>
+                <h2>High-Score</h2>
+                <div class="scoreContainer">
+                   <div class="scorePadding"></div>
+                   <div class="scoreboard"><input id="highscoreCount" type="text" readonly placeholder="00"></div>
+                   <div class="scorePadding"></div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>
